@@ -1,29 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 64
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 32
+      "questIDHigh:4": 7668713233961733844,
+      "questIDLow:4": -8186258255035639237
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The electrolysis machine enables the separating of elements from fluids and the advanced processing of ores, making it an important machine in ore processing.",
+      "desc:8": "Latex is an Early Game rubber analog. You can craft it by combining 4 dandelions and smelting the result.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_electrolyser"
+        "id:8": "hbm:item.ingot_biorubber"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Electrolysis Machine",
+      "name:8": "Latex",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,15 +30,15 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 204,
+  "questIDHigh:4": -1768225599084277788,
+  "questIDLow:4": -4987018416699038025,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -50,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_electrolyser"
+          "id:8": "hbm:item.ingot_biorubber"
         }
       },
       "taskID:8": "bq_standard:retrieval"

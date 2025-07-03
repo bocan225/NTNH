@@ -39,8 +39,20 @@
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
+      "biome:3": -1,
+      "dimension:3": 0,
+      "hideInfo:1": 0,
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "invert:1": 0,
+      "name:8": "New Location",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
     }
   }
 }

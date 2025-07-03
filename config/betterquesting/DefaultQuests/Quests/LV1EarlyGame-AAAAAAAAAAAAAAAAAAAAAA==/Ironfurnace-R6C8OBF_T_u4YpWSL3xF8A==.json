@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Iron furnace",
+      "name:8": "Iron Furnace",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -37,7 +37,14 @@
       "ignoreDisabled:1": 0,
       "index:3": 0,
       "rewardID:8": "bq_standard:item",
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:coal"
+        }
+      }
     }
   },
   "tasks:9": {

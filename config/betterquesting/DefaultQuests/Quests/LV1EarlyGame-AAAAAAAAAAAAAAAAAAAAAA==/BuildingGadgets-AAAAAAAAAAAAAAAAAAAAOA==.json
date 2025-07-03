@@ -55,16 +55,6 @@
           "id:8": "chisel:chisel"
         },
         "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "ArchitectureCraft:sawbench",
-            "orig_meta:3": 0
-          }
-        },
-        "3:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
