@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "§6Here are some changes in vanilla Minecraft:\n\n§c1) Some vanilla recipes are NTMized, for example - flint and steel\n2) You\u0027re burning in the Nether\n3) You\u0027re getting hungry faster",
+      "desc:8": "§6Here are some refined changes in vanilla Minecraft:\n\n§c§e1) Certain vanilla recipes have been revamped with an NTM-inspired twist. For example, flint and steel is LITERALLY flint and STEEL now.\n2) The Nether now brings intense heat, causing you to burn while exploring its fiery depths.  \n3) Hunger depletes more quickly, making survival a greater challenge.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
