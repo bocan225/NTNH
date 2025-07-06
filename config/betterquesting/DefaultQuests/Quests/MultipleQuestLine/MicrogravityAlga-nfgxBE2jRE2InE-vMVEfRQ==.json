@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Microgravity Algae Film is a machine is made of specialized layers of laythe plants that will convert CO2 directly into liquid oxygen. They however only function when in orbit.\n\nThe CO2 Scrubber allows you to recover CO2 from a pressurized room. This is occasionally useful when building space stations.",
+      "desc:8": "The Microgravity Algae Film is a machine is made of specialized layers of Laythe plants that will convert CO2 directly into liquid oxygen. They however only function when in orbit.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Microgravity Algae Film and CO2 Scrubber",
+      "name:8": "Microgravity Algae Film",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -52,12 +52,6 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "hbm:tile.algae_film"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:tile.air_scrubber"
         }
       },
       "taskID:8": "bq_standard:retrieval"

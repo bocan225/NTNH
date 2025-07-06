@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1056855836519647000,
-      "questIDLow:4": -6469879673307680333
+      "questIDHigh:4": 4848198512208791425,
+      "questIDLow:4": -9084662768445139072
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Cryogenic Distillation Machine can split atmospheric gases into 4 useful fractions, like for example, taking trace amounts of nitrogen out of the Dunaian atmosphere to produce soil for planting crops.",
+      "desc:8": "The CO2 Scrubber allows you to recover CO2 from a pressurized room. This is occasionally useful when building space stations.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_cryo_distill"
+        "id:8": "hbm:tile.air_scrubber"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Cryogenic Distillation Machine",
+      "name:8": "CO2 Scrubber",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -1276458623384728704,
-  "questIDLow:4": -6029980129346970130,
+  "questIDHigh:4": 5698198394168230781,
+  "questIDLow:4": -4975973513960770920,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -46,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_cryo_distill"
+          "id:8": "hbm:tile.air_scrubber"
         }
       },
       "taskID:8": "bq_standard:retrieval"

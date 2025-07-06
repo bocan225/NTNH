@@ -8,18 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This modpack offers a variety of tools to make building not only easier, but much better aswell.\n\nThe building Wand allows one to place many blocks at once, making walls and roads easier to construct. The stronger material the wand is made out of, the more blocks it can place.\n\nThe Chisel allows for alternative textures to already exisiting blocks, opening the door to many amazing builds.\n\nThe Architect\u0027s Sawbench makes it possible to make blocks into other shapes, such as spheres and arches.\n\nNote: The tools can be upgraded for additional durability and range.",
+      "desc:8": "Tired of using buckets to give water to your machines? Try using water pumps or infinite water barrels!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "chisel:chisel"
+        "id:8": "hbm:tile.pump_electric"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Building Gadgets",
+      "name:8": "Infinite Water Sources",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,15 +30,15 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 56,
+  "questIDHigh:4": -4155868891706668172,
+  "questIDLow:4": -5069944341791301115,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -46,19 +46,41 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "betterbuilderswands:wandIron"
-        },
-        "1:10": {
+          "id:8": "hbm:item.inf_water"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "chisel:chisel"
-        },
-        "2:10": {
-          "Count:3": 5,
+          "id:8": "hbm:tile.pump_steam"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CarpentersBlocks:blockCarpentersBlock"
+          "id:8": "hbm:tile.pump_electric"
         }
       },
       "taskID:8": "bq_standard:retrieval"
