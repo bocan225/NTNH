@@ -44,3 +44,7 @@ config/hodgepodgeEarly.properties
 .mixin.out
 *.duplicate
 LootBagStorage
+*.log
+CustomSkinLoader
+schematics
+structures
