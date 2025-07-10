@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The SILEX is a machine that separates isotopes and elements from compounds or other materials via the SILEX.\n\nThe FEL is a large machine used to produce various laser wavelengths needed for all SILEX recipes.\n\nThe Nuclear Waste Disposal Drum is used to decay RBMK nuclear waste. The decayed nuclear waste can then be used with a Fel and Silex to obtain some rare elements, such as Bismuth.\n\n[F1] For more information on the FEL and SILEX.\n",
+      "desc:8": "The SILEX is a machine that separates isotopes and elements from compounds or other materials via the SILEX.\n\nThe FEL is a large machine used to produce various laser wavelengths needed for all SILEX recipes. Shorter wavelengths unlock new recipes and speed up previous ones.\n\nThe Nuclear Waste Disposal Drum is used to decay RBMK nuclear waste. The decayed nuclear waste can then be used with a Fel and Silex to obtain some rare elements, such as Bismuth.\n\n[F1] For more information on the FEL and SILEX.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
