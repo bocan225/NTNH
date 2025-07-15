@@ -1066,7 +1066,7 @@
       "inputItem": [
         ["item","hbm:item.butter",2],
         ["item","minecraft:packed_ice"],
-        ["item","hbm:item.strawberry",4]
+        ["item","harvestcraft:strawberryItem",4]
       ],
       "inputFluid": [
         ["CREAM",1000]
