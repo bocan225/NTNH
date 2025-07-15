@@ -51,10 +51,10 @@
     "0:10": {
       "biome:3": -1,
       "dimension:3": 16,
-      "hideInfo:1": 0,
+      "hideInfo:1": 1,
       "index:3": 0,
       "invert:1": 0,
-      "name:8": "Дюна",
+      "name:8": "Duna",
       "posX:3": 0,
       "posY:3": 0,
       "posZ:3": 0,
