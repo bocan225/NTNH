@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 33
+      "questIDHigh:4": 4908730727839649644,
+      "questIDLow:4": -8246417714580623428
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With the Automatic Buzz Saw one can automatically farm trees for their wood, aswell as other crops such as Hemp and crops.\n\nFans, when powered by redstone, can be used to push the dropped items into hoppers or conveyors for storage. Use a drill on them to remove the diminishing pushing range.",
+      "desc:8": "You can easily remove weeds from your garden by using Hand Rakes.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 1,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_autosaw"
+        "id:8": "AgriCraft:handRake"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Automatic Buzz Saw",
+      "name:8": "Get Rid of Weed!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,15 +30,15 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 208,
+  "questIDHigh:4": -7366156042239324420,
+  "questIDLow:4": -7579264294520437687,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -46,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_autosaw"
+          "id:8": "AgriCraft:handRake"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -61,12 +61,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "hbm:tile.fan"
+          "id:8": "AgriCraft:handRake"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

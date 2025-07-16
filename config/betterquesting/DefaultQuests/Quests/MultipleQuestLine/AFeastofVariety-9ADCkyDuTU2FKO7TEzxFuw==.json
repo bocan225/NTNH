@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The farm is the foundation of survival. Use a copper hoe or better to till the soil near water to create farmland where you can plant seeds. You can obtain seeds by clicking on a grass block with a hoe. Pam\u0027s Harvestcraft adds new crops and recipes for unique dishes. Spice of Life increases health through food variety, while monotony reduces saturation. Track your diet in the Food Book (book + carrot).\n\nAlso, don’t forget about the luchbag/lunchbox, which you can open by right-clicking. Place food inside, close it, and use it as an automatic food dispenser to maintain your diet. Just press Shift + right-click to open it, and you can eat.\n\nDiversify your diet to thrive!",
+      "desc:8": "The farm is the foundation of survival. Use a copper hoe or better to till the soil near water to create farmland where you can plant seeds. You can obtain seeds by clicking on a grass block with a hoe. Pam\u0027s Harvestcraft adds new crops and recipes for unique dishes. Spice of Life increases health through food variety, while monotony reduces saturation. Track your diet in the Food Book (book + carrot).\n\nAlso, don\u0027t forget about the luchbag/lunchbox, which you can open by right-clicking. Place food inside, close it, and use it as an automatic food dispenser to maintain your diet. Just press Shift + right-click to open it, and you can eat.\n\nDiversify your diet to thrive!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -34,25 +34,6 @@
   "questIDLow:4": -8851562477268482629,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "harvestcraft:pamappleSapling"
-        },
-        "1:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:wheat_seeds"
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
       "ignoreDisabled:1": 0,
       "index:3": 1,
       "rewardID:8": "bq_standard:item",
@@ -68,6 +49,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SpiceOfLife:lunchbag"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:wheat_seeds"
         }
       }
     }
