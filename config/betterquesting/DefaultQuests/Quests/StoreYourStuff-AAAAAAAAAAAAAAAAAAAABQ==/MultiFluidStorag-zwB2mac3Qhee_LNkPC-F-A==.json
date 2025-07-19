@@ -1,30 +1,27 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 114
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 10
+      "questIDHigh:4": -7299499671697536937,
+      "questIDLow:4": -9123644052192798958
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "",
+      "desc:8": "You can also store more than 1 fluid type.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.ingot_tcalloy"
+        "id:8": "ae2fc:multi_fluid_storage1",
+        "tag:10": {}
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Technetium Steel",
-      "questLogic:8": "OR",
+      "name:8": "Multi-Fluid Storage Units",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -34,8 +31,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -5853491650673032917,
-  "questIDLow:4": -4865800775618781097,
+  "questIDHigh:4": -3530691705550978537,
+  "questIDLow:4": -6990515278498003464,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -48,9 +45,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "hbm:item.ingot_tcalloy"
+          "id:8": "ae2fc:fluid_storage_housing"
         }
       },
       "taskID:8": "bq_standard:retrieval"

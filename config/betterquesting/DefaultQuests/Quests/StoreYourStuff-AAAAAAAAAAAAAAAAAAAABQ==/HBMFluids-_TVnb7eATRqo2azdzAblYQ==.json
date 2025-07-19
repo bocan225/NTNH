@@ -1,30 +1,26 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 114
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 10
+      "questIDHigh:4": -7299499671697536937,
+      "questIDLow:4": -9123644052192798958
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "",
+      "desc:8": "You can also store NTM fluid in AE2 system by using blocks from HBMAEADDON mod.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.ingot_tcalloy"
+        "id:8": "hbmaeaddon:hbm_fluid_acceptor"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Technetium Steel",
-      "questLogic:8": "OR",
+      "name:8": "HBM Fluids",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -34,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -5853491650673032917,
-  "questIDLow:4": -4865800775618781097,
+  "questIDHigh:4": -201140878830449382,
+  "questIDLow:4": -6279798136780692127,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -50,7 +46,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.ingot_tcalloy"
+          "id:8": "hbmaeaddon:hbm_fluid_acceptor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbmaeaddon:hbm_fluid_exposer"
         }
       },
       "taskID:8": "bq_standard:retrieval"
