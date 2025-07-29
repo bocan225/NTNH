@@ -32,13 +32,12 @@ com.hbm.handler.nei.ArcFurnaceFluidHandler,0
 com.hbm.handler.nei.ArcFurnaceSolidHandler,0
 com.hbm.handler.nei.ArcWelderHandler,0
 com.hbm.handler.nei.AshpitHandler,0
-com.hbm.handler.nei.AssemblerRecipeHandler,0
+com.hbm.handler.nei.AssemblyMachineRecipeHandler,0
 com.hbm.handler.nei.BoilingHandler,0
 com.hbm.handler.nei.BookRecipeHandler,0
 com.hbm.handler.nei.BreederRecipeHandler,0
 com.hbm.handler.nei.CentrifugeRecipeHandler,0
 com.hbm.handler.nei.ChemicalPlantRecipeHandler,0
-com.hbm.handler.nei.ChemplantRecipeHandler,0
 com.hbm.handler.nei.CokingHandler,0
 com.hbm.handler.nei.CombinationHandler,0
 com.hbm.handler.nei.CompressorHandler,0
