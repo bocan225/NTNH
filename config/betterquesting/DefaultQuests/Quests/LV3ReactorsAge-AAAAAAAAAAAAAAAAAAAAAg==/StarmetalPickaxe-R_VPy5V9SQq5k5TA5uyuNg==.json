@@ -3,6 +3,11 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 39
+    },
+    "1:10": {
+      "questIDHigh:4": -4200229927184087041,
+      "questIDLow:4": -8511202365780115733,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -20,7 +25,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Starmetal Pickaxe",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,

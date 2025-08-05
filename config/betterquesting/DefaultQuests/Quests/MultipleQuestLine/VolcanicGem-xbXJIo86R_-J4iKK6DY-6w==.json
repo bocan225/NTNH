@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 4506175661970246064,
+      "questIDLow:4": -8421790663082334738
+    },
+    "1:10": {
       "questIDHigh:4": -4812035679007519365,
       "questIDLow:4": -8915000965156691319
     }
@@ -20,7 +24,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Volcanic Gem",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
