@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": -8879264726169074909,
       "questIDLow:4": -5030311693934117498
+    },
+    "1:10": {
+      "questIDHigh:4": 679069445854677979,
+      "questIDLow:4": -8570241809379658921
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Drop Pod is an alternative to the regular capsule used on rockets; it can only be used on the space station. It has its own engine, allowing it to land on planets and return to the station. Refueling is done on the station and requires hydrogen and oxygen.",
+      "desc:8": "The Drop Pod is an alternative to the regular capsule used on rockets; it can only be used on the space station. It has its own engine, allowing it to land on planets and return to the station. Refueling is done on the station and requires hydrazine.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
