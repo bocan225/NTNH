@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<hbm:item.powder_power>);
+recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
 recipes.remove(<ae2fc:part_fluid_export>);
 recipes.remove(<ae2fc:part_fluid_import>);
 recipes.remove(<ae2fc:fluid_storage4096>);
@@ -259,7 +261,6 @@ recipes.remove(<appliedenergistics2:tile.BlockMolecularAssembler>);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
 recipes.remove(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>);
 recipes.remove(<appliedenergistics2:tile.BlockVibrationChamber>);
-recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
 recipes.remove(<appliedenergistics2:tile.BlockCondenser>);
 recipes.remove(<appliedenergistics2:tile.BlockIOPort>);
 recipes.remove(<appliedenergistics2:tile.BlockCellWorkbench>);
@@ -285,6 +286,8 @@ recipes.removeShaped(<minecraft:fire>, [[<ore:cobblestone>, null, null], [<ore:c
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<hbm:item.powder_power>, [<ore:dustMagnetizedTungsten>, <ore:dustGlowstone>, <ore:dustDiamond>, <HardcoreEnderExpansion:stardust>]);
+recipes.addShapeless(<hbm:item.powder_magic>, [<HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:essence>, <ore:ntmchemistryset>]);
 recipes.addShapeless(<minecraft:mossy_cobblestone>, [<minecraft:cobblestone>, <minecraft:vine>]);
 recipes.addShapeless(<minecraft:stonebrick:1>, [<minecraft:stonebrick>, <minecraft:vine>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:500>, [<appliedenergistics2:item.ItemMultiPart:340>, <appliedenergistics2:item.ItemMultiMaterial:24>]);
@@ -306,6 +309,8 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<GraviGun:GraviGun>, [[null, <hbm:tile.tesla>, <hbm:item.circuit:9>], [<ore:billetSchrabidium>, <ore:barrelHeavyWeaponSteel>, <ore:receiverHeavyWeaponSteel>], [null, <ore:stockAnyPlastic>, <ore:gripAnyPlastic>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<ore:ingotSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotSteel>], [<appliedenergistics2:tile.BlockQuartzGlass>, <ore:crystalFluix>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotSteel>]]);
 recipes.addShaped(<ae2fc:part_fluid_export>, [[<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:gemLapis>], [<ore:ingotSteel>, <ore:craftingPiston>, <ore:ingotSteel>]]);
 recipes.addShaped(<ae2fc:part_fluid_import>, [[<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:gemLapis>], [<ore:ingotSteel>, <ore:craftingPiston>, <ore:ingotSteel>]]);
 recipes.addShaped(<OpenComputers:keyboard>, [[<ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>], [<ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>], [<ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>, <ore:oc:materialArrowKey>]]);
@@ -342,7 +347,6 @@ recipes.addShaped(<computronics:computronics.cipher>, [[<ore:ingotIron>, <ore:ma
 recipes.addShaped(<computronics:computronics.chatBox>, [[<ore:ingotIron>, <ore:oc:circuitChip2>, <ore:ingotIron>], [<ore:oc:circuitChip1>, <ore:oc:materialInterweb>, <ore:oc:circuitChip1>], [<ore:ingotIron>, <hbm:item.circuit:3>, <ore:ingotIron>]]);
 recipes.addShaped(<computronics:computronics.camera>, [[<ore:ingotIron>, <ore:oc:circuitChip1>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:materialEnderPearl>, <ore:blockGlassColorless>], [<ore:ingotIron>, <hbm:item.circuit:3>, <ore:ingotIron>]]);
 recipes.addShaped(<computronics:computronics.tapeReader>, [[<ore:ingotIron>, <ore:oc:circuitChip2>, <ore:ingotIron>], [<ore:craftingPiston>, <computronics:computronics.speaker>, <minecraft:iron_bars>], [<ore:ingotIron>, <hbm:item.circuit:3>, <ore:ingotIron>]]);
-recipes.addShaped(<GraviGun:GraviGun>, [[null, <hbm:tile.tesla>, <hbm:item.circuit:9>], [<ore:barrelHeavyWeaponSteel>, <ore:receiverHeavyWeaponSteel>, <ore:gunMechanismWeaponSteel>], [null, <ore:stockAnyPlastic>, <ore:gripAnyPlastic>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockCellWorkbench>, [[<ore:plateTripleSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:plateTripleSteel>], [<ore:Steel>, <ore:chestWood>, <ore:Steel>], [<ore:Steel>, <ore:Steel>, <ore:Steel>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockSkyStone> * 16, [[null, <hbm:item.fragment_meteorite>, null], [<hbm:item.fragment_meteorite>, <ore:cobblestone>, <hbm:item.fragment_meteorite>], [null, <hbm:item.fragment_meteorite>, null]]);
 recipes.addShaped(<StorageDrawers:halfDrawers4> * 4, [[<hbm:tile.mass_storage:3>, <ore:slabWood>, <hbm:tile.mass_storage:3>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<hbm:tile.mass_storage:3>, <ore:slabWood>, <hbm:tile.mass_storage:3>]]);
