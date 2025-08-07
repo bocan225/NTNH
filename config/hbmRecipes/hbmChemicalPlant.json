@@ -1,6 +1,6 @@
 {
   "recipes": [
-	{ 
+    { 
       "name": "chem.certus",
       "inputItem": [
         ["item","hbm:item.powder_quartz",1],
@@ -244,6 +244,32 @@
       "power": 100
     },
     {
+      "name": "chem.cobble",
+      "inputFluid": [
+        ["WATER",1000],
+        ["LAVA",25]
+      ],
+      "outputItem": [
+        ["single",["minecraft:cobblestone"]]
+      ],
+      "duration": 20,
+      "power": 100
+    },
+    {
+      "name": "chem.stone",
+      "inputFluid": [
+        ["WATER",1000],
+        ["LAVA",25],
+        ["AIR",4000]
+      ],
+      "outputItem": [
+        ["single",["minecraft:stone"]]
+      ],
+      "duration": 60,
+      "power": 500,
+      "blueprintpool": "discover."
+    },
+    {
       "name": "chem.concrete",
       "inputItem": [
         ["item","hbm:item.powder_cement"],
@@ -289,6 +315,22 @@
         ["single",["hbm:tile.ducrete_smooth",8]]
       ],
       "duration": 150,
+      "power": 100
+    },
+    {
+      "name": "chem.liquidconk",
+      "inputItem": [
+        ["item","hbm:item.powder_cement"],
+        ["item","minecraft:gravel",8],
+        ["dict","sand",8]
+      ],
+      "inputFluid": [
+        ["WATER",2000]
+      ],
+      "outputFluid": [
+        ["CONCRETE",16000]
+      ],
+      "duration": 100,
       "power": 100
     },
     {
@@ -786,65 +828,6 @@
       "duration": 100,
       "power": 10000,
       "icon": ["hbm:item.fluid_icon",1,41]
-    },
-    {
-      "name": "chem.thoriumsalt",
-      "inputItem": [
-        ["dict","nuggetThorium232",2]
-      ],
-      "inputFluid": [
-        ["THORIUM_SALT_DEPLETED",16000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.nugget_u233"],0.5],
-        ["single",["hbm:item.nuclear_waste_tiny"],0.25]
-      ],
-      "outputFluid": [
-        ["THORIUM_SALT",16000]
-      ],
-      "duration": 100,
-      "power": 10000,
-      "icon": ["hbm:item.fluid_icon",1,168]
-    },
-    {
-      "name": "chem.vitliquid",
-      "inputItem": [
-        ["item","hbm:tile.sand_lead"]
-      ],
-      "inputFluid": [
-        ["WASTEFLUID",1000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.nuclear_waste_vitrified"]]
-      ],
-      "duration": 100,
-      "power": 1000
-    },
-    {
-      "name": "chem.vitgaseous",
-      "inputItem": [
-        ["item","hbm:tile.sand_lead"]
-      ],
-      "inputFluid": [
-        ["WASTEGAS",1000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.nuclear_waste_vitrified"]]
-      ],
-      "duration": 100,
-      "power": 1000
-    },
-    {
-      "name": "chem.vitsolid",
-      "inputItem": [
-        ["item","hbm:tile.sand_lead"],
-        ["item","hbm:item.nuclear_waste",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.nuclear_waste_vitrified",4]]
-      ],
-      "duration": 300,
-      "power": 1000
     },
     {
       "name": "chem.osmiridiumdeath",

@@ -1,6 +1,6 @@
 {
   "recipes": [
-    {
+  	{
       "inputs": [
         ["dict","plateTripleSteel",4]
       ],

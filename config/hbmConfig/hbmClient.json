@@ -18,5 +18,6 @@
   "NUKE_HUD_FLASH": true,
   "NUKE_HUD_SHAKE": true,
   "RENDER_CABLE_HANG": true,
+  "RENDER_REBAR_SIMPLE": false,
   "RENDER_REEDS": false
 }
