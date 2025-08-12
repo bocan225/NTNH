@@ -1,4 +1,4 @@
-    {
+  {
       "input": ["minecraft:ender_pearl"],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,46]
     },

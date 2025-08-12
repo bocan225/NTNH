@@ -1,6 +1,6 @@
 {
   "recipes": [
-    { 
+  	{ 
       "toppings": [
         ["dict","wireFineCopper",8],
         ["dict","oc:floppy",1]
@@ -936,6 +936,23 @@
         ["dict","wireFineLead",12]
       ],
       "fluid": ["SOLVENT",1000],
+      "output": ["hbm:item.circuit",1,12],
+      "duration": 400,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbm:item.circuit",4,7],
+        ["item","hbm:item.circuit",2,26],
+        ["item","hbm:item.circuit",8,1]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",6,3]
+      ],
+      "solder": [
+        ["dict","wireFineLead",6]
+      ],
+      "fluid": ["POLYTHYLENE",1000],
       "output": ["hbm:item.circuit",1,12],
       "duration": 400,
       "consumption": 10000

@@ -1,6 +1,20 @@
 {
   "recipes": [
-    { 
+	{ 
+      "name": "chem.sponge",
+      "inputItem": [
+        ["dict","ingotAnyRubber",4]
+      ],
+      "inputFluid": [
+        ["CARBONDIOXIDE",250]
+      ],
+      "outputItem": [
+        ["single",["minecraft:sponge",1,0]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+	{ 
       "name": "chem.certus",
       "inputItem": [
         ["item","hbm:item.powder_quartz",1],
@@ -404,6 +418,18 @@
       ],
       "duration": 100,
       "power": 200
+    },
+    {
+      "name": "chem.vinylrubber",
+      "inputFluid": [
+        ["VINYL",500],
+        ["UNSATURATEDS",400]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.ingot_rubber"]]
+      ],
+      "duration": 100,
+      "power": 400
     },
     {
       "name": "chem.hardplastic",
@@ -934,11 +960,11 @@
     {
       "name": "chem.hcl",
       "inputFluid": [
-        ["HYDROGEN",300],
-        ["CHLORINE",1000]
+        ["HYDROGEN",500],
+        ["CHLORINE",500]
       ],
       "outputFluid": [
-        ["HCL",400]
+        ["HCL",1000]
       ],
       "duration": 50,
       "power": 100

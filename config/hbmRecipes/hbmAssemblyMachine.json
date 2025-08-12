@@ -1070,6 +1070,32 @@
       "power": 100
     },
     {
+      "name": "ass.yellowbarrel",
+      "inputItem": [
+        ["item","hbm:item.tank_steel"],
+        ["dict","plateLead",2],
+        ["item","hbm:item.nuclear_waste",10]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.yellow_barrel"]]
+      ],
+      "duration": 400,
+      "power": 400
+    },
+    {
+      "name": "ass.vitrifiedbarrel",
+      "inputItem": [
+        ["item","hbm:item.tank_steel"],
+        ["dict","plateLead",2],
+        ["item","hbm:item.nuclear_waste_vitrified",10]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.vitrified_barrel"]]
+      ],
+      "duration": 400,
+      "power": 400
+    },
+    {
       "name": "ass.vaultdoor",
       "inputItem": [
         ["dict","ingotSteel",32],
@@ -5872,7 +5898,7 @@
     {
       "name": "ass.rp_fuselage_20_12",
       "inputItem": [
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",16],
         ["dict","shellTitanium",12],
         ["dict","plateSextupleAluminum"]
@@ -5886,7 +5912,7 @@
     {
       "name": "ass.rp_fuselage_20_6",
       "inputItem": [
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",8],
         ["dict","shellTitanium",6],
         ["dict","plateSextupleAluminum",8]
@@ -5900,7 +5926,7 @@
     {
       "name": "ass.rp_fuselage_20_3",
       "inputItem": [
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",4],
         ["dict","shellTitanium",3],
         ["dict","plateSextupleAluminum",4]
@@ -5914,7 +5940,7 @@
     {
       "name": "ass.rp_fuselage_20_1",
       "inputItem": [
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",2],
         ["dict","shellTitanium"],
         ["dict","plateSextupleAluminum",2]
@@ -5928,7 +5954,7 @@
     {
       "name": "ass.rp_fuselage_20_12_hydrazine",
       "inputItem": [
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.seg_20",2],
         ["dict","shellTitanium",12],
         ["dict","plateSextupleAluminum",16],
         ["dict","ingotPolymer",8]
@@ -6308,7 +6334,7 @@
         ["PERFLUOROMETHYL",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,196]]
+        ["single",["hbm:item.fluid_pack_full",1,197]]
       ],
       "duration": 40,
       "power": 100
@@ -6316,7 +6342,7 @@
     {
       "name": "ass.unpackagehbmfluid.perfluoromethyl",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,196]
+        ["item","hbm:item.fluid_pack_full",1,197]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -6326,7 +6352,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,196]
+      "icon": ["hbm:item.fluid_icon",1,197]
     },
     {
       "name": "ass.packagehbmfluid.perfluoromethyl_cold",
@@ -6337,7 +6363,7 @@
         ["PERFLUOROMETHYL_COLD",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,197]]
+        ["single",["hbm:item.fluid_pack_full",1,198]]
       ],
       "duration": 40,
       "power": 100
@@ -6345,7 +6371,7 @@
     {
       "name": "ass.unpackagehbmfluid.perfluoromethyl_cold",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,197]
+        ["item","hbm:item.fluid_pack_full",1,198]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -6355,7 +6381,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,197]
+      "icon": ["hbm:item.fluid_icon",1,198]
     },
     {
       "name": "ass.packagehbmfluid.perfluoromethyl_hot",
@@ -6366,7 +6392,7 @@
         ["PERFLUOROMETHYL_HOT",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,198]]
+        ["single",["hbm:item.fluid_pack_full",1,199]]
       ],
       "duration": 40,
       "power": 100
@@ -6374,7 +6400,7 @@
     {
       "name": "ass.unpackagehbmfluid.perfluoromethyl_hot",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,198]
+        ["item","hbm:item.fluid_pack_full",1,199]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -6384,7 +6410,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,198]
+      "icon": ["hbm:item.fluid_icon",1,199]
     },
     {
       "name": "ass.packagehbmfluid.cryogel",
@@ -8997,6 +9023,151 @@
       "icon": ["hbm:item.fluid_icon",1,161]
     },
     {
+      "name": "ass.packagehbmfluid.hgas",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["HGAS",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,196]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.hgas",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,196]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["HGAS",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,196]
+    },
+    {
+      "name": "ass.packagehbmfluid.vinyl",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["VINYL",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,206]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.vinyl",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,206]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["VINYL",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,206]
+    },
+    {
+      "name": "ass.packagehbmfluid.tcrude",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["TCRUDE",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,207]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.tcrude",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,207]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["TCRUDE",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,207]
+    },
+    {
+      "name": "ass.packagehbmfluid.cbenz",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["CBENZ",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,208]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.cbenz",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,208]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["CBENZ",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,208]
+    },
+    {
+      "name": "ass.packagehbmfluid.halolight",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["HALOLIGHT",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,209]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.halolight",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,209]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["HALOLIGHT",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,209]
+    },
+    {
       "name": "ass.packagehbmfluid.salient",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
@@ -9461,12 +9632,12 @@
       "icon": ["hbm:item.fluid_icon",1,123]
     },
     {
-      "name": "ass.packagehbmfluid.methylene",
+      "name": "ass.packagehbmfluid.chloroethane",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
       ],
       "inputFluid": [
-        ["METHYLENE",32000]
+        ["CHLOROETHANE",32000]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_full",1,122]]
@@ -9475,7 +9646,7 @@
       "power": 100
     },
     {
-      "name": "ass.unpackagehbmfluid.methylene",
+      "name": "ass.unpackagehbmfluid.chloroethane",
       "inputItem": [
         ["item","hbm:item.fluid_pack_full",1,122]
       ],
@@ -9483,7 +9654,7 @@
         ["single",["hbm:item.fluid_pack_empty"]]
       ],
       "outputFluid": [
-        ["METHYLENE",32000]
+        ["CHLOROETHANE",32000]
       ],
       "duration": 40,
       "power": 100,
@@ -10252,7 +10423,7 @@
         ["SODIUM_ALUMINATE",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,200]]
+        ["single",["hbm:item.fluid_pack_full",1,201]]
       ],
       "duration": 40,
       "power": 100
@@ -10260,7 +10431,7 @@
     {
       "name": "ass.unpackagehbmfluid.sodium_aluminate",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,200]
+        ["item","hbm:item.fluid_pack_full",1,201]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -10270,7 +10441,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,200]
+      "icon": ["hbm:item.fluid_icon",1,201]
     },
     {
       "name": "ass.packagehbmfluid.bauxite_solution",
@@ -10281,7 +10452,7 @@
         ["BAUXITE_SOLUTION",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,201]]
+        ["single",["hbm:item.fluid_pack_full",1,202]]
       ],
       "duration": 40,
       "power": 100
@@ -10289,7 +10460,7 @@
     {
       "name": "ass.unpackagehbmfluid.bauxite_solution",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,201]
+        ["item","hbm:item.fluid_pack_full",1,202]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -10299,7 +10470,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,201]
+      "icon": ["hbm:item.fluid_icon",1,202]
     },
     {
       "name": "ass.packagehbmfluid.alumina",
@@ -10310,7 +10481,7 @@
         ["ALUMINA",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,202]]
+        ["single",["hbm:item.fluid_pack_full",1,203]]
       ],
       "duration": 40,
       "power": 100
@@ -10318,7 +10489,7 @@
     {
       "name": "ass.unpackagehbmfluid.alumina",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,202]
+        ["item","hbm:item.fluid_pack_full",1,203]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -10328,7 +10499,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,202]
+      "icon": ["hbm:item.fluid_icon",1,203]
     },
     {
       "name": "ass.packagehbmfluid.aqueous_nickel",
@@ -10339,7 +10510,7 @@
         ["AQUEOUS_NICKEL",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,203]]
+        ["single",["hbm:item.fluid_pack_full",1,204]]
       ],
       "duration": 40,
       "power": 100
@@ -10347,7 +10518,7 @@
     {
       "name": "ass.unpackagehbmfluid.aqueous_nickel",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,203]
+        ["item","hbm:item.fluid_pack_full",1,204]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -10357,7 +10528,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,203]
+      "icon": ["hbm:item.fluid_icon",1,204]
     },
     {
       "name": "ass.packagehbmfluid.concrete",
@@ -10368,7 +10539,7 @@
         ["CONCRETE",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,204]]
+        ["single",["hbm:item.fluid_pack_full",1,205]]
       ],
       "duration": 40,
       "power": 100
@@ -10376,7 +10547,7 @@
     {
       "name": "ass.unpackagehbmfluid.concrete",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,204]
+        ["item","hbm:item.fluid_pack_full",1,205]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -10386,7 +10557,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,204]
+      "icon": ["hbm:item.fluid_icon",1,205]
     },
     {
       "name": "ass.packagehbmfluid.fracksol",
@@ -10426,7 +10597,7 @@
         ["LYE",32000]
       ],
       "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,199]]
+        ["single",["hbm:item.fluid_pack_full",1,200]]
       ],
       "duration": 40,
       "power": 100
@@ -10434,7 +10605,7 @@
     {
       "name": "ass.unpackagehbmfluid.lye",
       "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,199]
+        ["item","hbm:item.fluid_pack_full",1,200]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_empty"]]
@@ -10444,7 +10615,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,199]
+      "icon": ["hbm:item.fluid_icon",1,200]
     },
     {
       "name": "ass.packagehbmfluid.phosgene",
@@ -10998,12 +11169,12 @@
       "icon": ["hbm:item.fluid_icon",1,114]
     },
     {
-      "name": "ass.packagehbmfluid.oliveoil",
+      "name": "ass.packagehbmfluid.ccl",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
       ],
       "inputFluid": [
-        ["OLIVEOIL",32000]
+        ["CCL",32000]
       ],
       "outputItem": [
         ["single",["hbm:item.fluid_pack_full",1,115]]
@@ -11012,7 +11183,7 @@
       "power": 100
     },
     {
-      "name": "ass.unpackagehbmfluid.oliveoil",
+      "name": "ass.unpackagehbmfluid.ccl",
       "inputItem": [
         ["item","hbm:item.fluid_pack_full",1,115]
       ],
@@ -11020,7 +11191,7 @@
         ["single",["hbm:item.fluid_pack_empty"]]
       ],
       "outputFluid": [
-        ["OLIVEOIL",32000]
+        ["CCL",32000]
       ],
       "duration": 40,
       "power": 100,

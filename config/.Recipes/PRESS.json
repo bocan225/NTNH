@@ -1,4 +1,4 @@
-    {
+  {
       "input": ["item","appliedenergistics2:item.ItemMultiMaterial",1,10],
       "stamp": "circuit",
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,16]

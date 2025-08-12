@@ -1,4 +1,18 @@
     { 
+      "name": "chem.sponge",
+      "inputItem": [
+        ["dict","ingotAnyRubber",4]
+      ],
+      "inputFluid": [
+        ["CARBONDIOXIDE",250]
+      ],
+      "outputItem": [
+        ["single",["minecraft:sponge",1,0]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+	{ 
       "name": "chem.certus",
       "inputItem": [
         ["item","hbm:item.powder_quartz",1],

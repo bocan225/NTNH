@@ -765,42 +765,42 @@
     {
       "inputs": [
         ["dict","plateSextupleStainlessSteel"],
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.seg_20",2],
         ["dict","shellTitanium"]
       ],
       "output": ["hbm:item.rp_f_20_1"],
-      "duration": 120,
-      "consumption": 50000
+      "duration": 100,
+      "consumption": 20000
+    },
+    {
+      "inputs": [
+        ["dict","plateSextupleStainlessSteel"],
+        ["item","hbm:item.rp_f_20_1"],
+        ["dict","shellTitanium",2]
+      ],
+      "output": ["hbm:item.rp_f_20_3"],
+      "duration": 150,
+      "consumption": 30000
     },
     {
       "inputs": [
         ["dict","plateSextupleStainlessSteel",2],
-        ["item","hbm:item.seg_20"],
-        ["item","hbm:item.rp_f_20_1"]
+        ["item","hbm:item.rp_f_20_3"],
+        ["dict","shellTitanium",3]
       ],
-      "output": ["hbm:item.rp_f_20_3"],
-      "duration": 130,
-      "consumption": 52000
+      "output": ["hbm:item.rp_f_20_6"],
+      "duration": 200,
+      "consumption": 50000
     },
     {
       "inputs": [
         ["dict","plateSextupleStainlessSteel",4],
-        ["item","hbm:item.seg_20"],
-        ["item","hbm:item.rp_f_20_3"]
-      ],
-      "output": ["hbm:item.rp_f_20_6"],
-      "duration": 140,
-      "consumption": 56000
-    },
-    {
-      "inputs": [
-        ["dict","plateSextupleStainlessSteel",8],
-        ["item","hbm:item.seg_20"],
+        ["item","hbm:item.rp_f_20_6"],
         ["dict","shellTitanium",6]
       ],
       "fluid": ["OXYGEN",500],
       "output": ["hbm:item.rp_f_20_12"],
-      "duration": 150,
+      "duration": 250,
       "consumption": 60000
     }
   ]
