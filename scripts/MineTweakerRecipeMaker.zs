@@ -296,15 +296,6 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:68>, [<appliede
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:47>, [<hbm:item.singularity>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:54>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:tile.BlockInterface>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:54>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiPart:440>]);
-recipes.addShapeless(<hbm:tile.ore_uranium>, [<hbm:tile.ore_uranium_scorched>, <chisel:obsidianChisel>]);
-recipes.addShapeless(<hbm:tile.ore_uranium>, [<hbm:tile.ore_uranium_scorched>, <chisel:diamondChisel>]);
-recipes.addShapeless(<hbm:tile.ore_uranium>, [<hbm:tile.ore_uranium_scorched>, <chisel:chisel>]);
-recipes.addShapeless(<hbm:tile.ore_gneiss_uranium>, [<hbm:tile.ore_gneiss_uranium_scorched>, <chisel:obsidianChisel>]);
-recipes.addShapeless(<hbm:tile.ore_gneiss_uranium>, [<hbm:tile.ore_gneiss_uranium_scorched>, <chisel:diamondChisel>]);
-recipes.addShapeless(<hbm:tile.ore_gneiss_uranium>, [<hbm:tile.ore_gneiss_uranium_scorched>, <chisel:chisel>]);
-recipes.addShapeless(<hbm:tile.ore_nether_uranium>, [<ore:oreUranium>, <chisel:obsidianChisel>]);
-recipes.addShapeless(<hbm:tile.ore_nether_uranium>, [<ore:oreUranium>, <chisel:diamondChisel>]);
-recipes.addShapeless(<hbm:tile.ore_nether_uranium>, [<ore:oreUranium>, <chisel:chisel>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
 
 // ================================================================================
