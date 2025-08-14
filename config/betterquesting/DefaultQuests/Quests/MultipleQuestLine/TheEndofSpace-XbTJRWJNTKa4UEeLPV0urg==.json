@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Well, you\u0027ve completed the space stage of the game; now the entire cosmos knows and fears you (you are a true space pirate). Here are a couple more nuances about the Dyson swarm:\n\nDo not place converters directly next to the receiver - this will cause a malfunction.\n\nMultiple players in the same game world can create multiple swarms, but keep in mind that different swarms reduce each other\u0027s efficiency. This can encourage players to either work together on one common swarm or compete to extract more energy from their own swarm.",
+      "desc:8": "Well, you\u0027ve completed the space stage of the game; now the entire space knows and fears you (you are a true space pirate). Here are a couple more nuances about the Dyson swarm:\n\nDo not place converters directly next to the receiver - this will cause a malfunction.\n\nMultiple players in the same game world can create multiple swarms, but keep in mind that different swarms reduce each other\u0027s efficiency. This can encourage players to either work together on one common swarm or compete to extract more energy from their own swarm.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -43,8 +43,8 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 3,
-          "Damage:2": 7,
+          "Count:3": 1,
+          "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag",
           "tag:10": {

@@ -52,7 +52,7 @@
       "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "required:3": 10,
+      "required:3": 1,
       "subtypes:1": 1,
       "target:8": "entity_moon_cow",
       "targetNBT:10": {

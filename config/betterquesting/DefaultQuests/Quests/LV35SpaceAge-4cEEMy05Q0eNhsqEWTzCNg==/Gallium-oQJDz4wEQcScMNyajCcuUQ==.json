@@ -40,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag",
           "tag:10": {
@@ -58,20 +58,20 @@
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 1,
-      "consume:1": 1,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "hbm:item.powder_gallium"
         },
         "1:10": {
-          "Count:3": 10,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "hbm:item.ingot_gallium"

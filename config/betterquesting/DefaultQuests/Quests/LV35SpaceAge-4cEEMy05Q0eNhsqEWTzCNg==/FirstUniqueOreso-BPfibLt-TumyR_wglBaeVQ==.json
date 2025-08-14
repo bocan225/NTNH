@@ -40,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -57,13 +57,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 1,
           "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "hbm:tile.ore_quartz"
         },
         "1:10": {
-          "Count:3": 10,
+          "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "hbm:tile.ore_lithium"

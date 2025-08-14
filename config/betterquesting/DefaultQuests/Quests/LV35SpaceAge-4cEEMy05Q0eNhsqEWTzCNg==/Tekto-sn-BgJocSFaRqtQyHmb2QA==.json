@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 5091114072294771997,
-      "questIDLow:4": -5545061285848322781
+      "questIDHigh:4": 3567816166670550715,
+      "questIDLow:4": -6766783877923763225
     }
   },
   "properties:10": {
@@ -32,7 +32,21 @@
   },
   "questIDHigh:4": -5584602623574783914,
   "questIDLow:4": -7950308880445671872,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "biome:3": -1,
