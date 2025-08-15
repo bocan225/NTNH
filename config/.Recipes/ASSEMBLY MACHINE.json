@@ -1,5 +1,63 @@
   {
-      "name": "ass.ocadapter",
+      "name": "ass.row.boiler",
+      "inputItem": [
+        ["dict","plateTripleCopper",3],
+		["dict","dyeGreen",6]
+      ],
+      "outputItem": [
+        ["single",["row:item.row.boiler"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+	{
+      "name": "ass.row.funnellarge",
+      "inputItem": [
+        ["dict","plateSteelIron",4]
+      ],
+      "outputItem": [
+        ["single",["row:item.row.funnellarge"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+	{
+      "name": "ass.row.funnelsmall",
+      "inputItem": [
+        ["dict","plateSteelIron",2]
+      ],
+      "outputItem": [
+        ["single",["row:item.row.funnelsmall"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+	{
+      "name": "ass.row.light",
+      "inputItem": [
+        ["dict","plateTripleIron",3],
+        ["item","minecraft:glass_pane",1],
+        ["dict","paneGlass",1],
+      ],
+      "outputItem": [
+        ["single",["row:item.row.light"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+	{
+      "name": "ass.row.traincabin",
+      "inputItem": [
+        ["dict","plateTripleIron",6]
+      ],
+      "outputItem": [
+        ["single",["row:item.row.traincabin"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+	{
+      "name": "ass.oc.adapter",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:cable",6],
@@ -13,7 +71,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocassembler",
+      "name": "ass.oc.assembler",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:tile.machine_autocrafter",1],
@@ -28,7 +86,7 @@
       "power": 100
     },
     {
-      "name": "ass.occapacitor",
+      "name": "ass.oc.capacitor",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:item.battery_generic",1],
@@ -44,7 +102,7 @@
       "power": 100
     },
     {
-      "name": "ass.occase1",
+      "name": "ass.oc.case1",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","minecraft:chest",1],
@@ -58,7 +116,7 @@
       "power": 100
     },
     {
-      "name": "ass.occase2",
+      "name": "ass.oc.case2",
       "inputItem": [
         ["item","OpenComputers:case1",1],
         ["dict","hbm:plateTripleSteel",2],
@@ -72,7 +130,7 @@
       "power": 100
     },
     {
-      "name": "ass.occase3",
+      "name": "ass.oc.case3",
       "inputItem": [
         ["item","OpenComputers:case2",1],
         ["dict","plateSextupleSteel",6],
@@ -86,7 +144,7 @@
       "power": 100
     },
     {
-      "name": "ass.occharger",
+      "name": "ass.oc.charger",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:capacitor",2],
@@ -99,7 +157,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocdisassembler",
+      "name": "ass.oc.disassembler",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:item.part_generic",2,1],
@@ -114,7 +172,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocdrive",
+      "name": "ass.oc.drive",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:item.part_generic",2,1],
@@ -128,7 +186,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocgeolyzer",
+      "name": "ass.oc.geolyzer",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:item.survey_scanner",1],
@@ -142,7 +200,7 @@
       "power": 100
     },
     {
-      "name": "ass.ochologram1",
+      "name": "ass.oc.hologram1",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["dict","dustGlowstone",1],
@@ -157,7 +215,7 @@
       "power": 100
     },
     {
-      "name": "ass.ochologram2",
+      "name": "ass.oc.hologram2",
       "inputItem": [
         ["item","OpenComputers:item",1,25],
         ["item","OpenComputers:hologram1",1],
@@ -170,7 +228,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocmotionsensor",
+      "name": "ass.oc.motionsensor",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","minecraft:daylight_detector",6],
@@ -183,7 +241,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocpowerconverter",
+      "name": "ass.oc.powerconverter",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:cable",1],
@@ -197,7 +255,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocpowerdistributor",
+      "name": "ass.oc.powerdistributor",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:cable",2],
@@ -211,7 +269,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocraid",
+      "name": "ass.oc.raid",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:diskDrive",1],
@@ -226,7 +284,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocredstone",
+      "name": "ass.oc.redstone",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["dict","blockRedstone",1],
@@ -239,7 +297,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocrelay",
+      "name": "ass.oc.relay",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:cable",6],
@@ -253,7 +311,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocscreen1",
+      "name": "ass.oc.screen1",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:item",1,24],
@@ -267,7 +325,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocscreen2",
+      "name": "ass.oc.screen2",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:item",1,25],
@@ -281,7 +339,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocscreen3",
+      "name": "ass.oc.screen3",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:item",1,26],
@@ -295,7 +353,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocrack",
+      "name": "ass.oc.rack",
       "inputItem": [
         ["item","OpenComputers:item",1,13],
         ["item","OpenComputers:relay",1],
@@ -308,7 +366,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocprinter",
+      "name": "ass.oc.printer",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:cable",6],
@@ -322,7 +380,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocprint",
+      "name": "ass.oc.print",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:tile.machine_autocrafter",1],
@@ -337,7 +395,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocwaypoint",
+      "name": "ass.oc.waypoint",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:item",1,24],
@@ -351,7 +409,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocnetsplitter",
+      "name": "ass.oc.netsplitter",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:cable",6],
@@ -366,7 +424,7 @@
       "power": 100
     },
     {
-      "name": "ass.octransposer",
+      "name": "ass.oc.transposer",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","hbm:tile.crate_steel",1],
@@ -379,7 +437,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocradio",
+      "name": "ass.oc.radio",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","OpenComputers:item",1,42],
@@ -392,7 +450,7 @@
       "power": 100
     },
     {
-      "name": "ass.ocspeaker",
+      "name": "ass.oc.speaker",
       "inputItem": [
         ["item","hbm:tile.case",1],
         ["item","computronics:computronics.ironNoteBlock",1]

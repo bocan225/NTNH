@@ -12,6 +12,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<row:item.row.traincabin>);
+recipes.remove(<row:item.row.light>);
+recipes.remove(<row:item.row.funnellarge>);
+recipes.remove(<row:item.row.funnelsmall>);
+recipes.remove(<row:item.row.cartwheel>);
+recipes.remove(<row:item.row.boiler>);
+recipes.remove(<row:item.row.enginewheel>);
+recipes.remove(<row:item.row.battery>);
 recipes.remove(<hbm:item.powder_power>);
 recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
 recipes.remove(<ae2fc:part_fluid_export>);
@@ -300,6 +308,7 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<row:item.row.battery>, [[<hbm:item.battery_advanced>]]);
 recipes.addShaped(<GraviGun:GraviGun>, [[null, <hbm:tile.tesla>, <hbm:item.circuit:9>], [<ore:billetSchrabidium>, <ore:barrelHeavyWeaponSteel>, <ore:receiverHeavyWeaponSteel>], [null, <ore:stockAnyPlastic>, <ore:gripAnyPlastic>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<ore:ingotSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotSteel>], [<appliedenergistics2:tile.BlockQuartzGlass>, <ore:crystalFluix>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotSteel>]]);
 recipes.addShaped(<ae2fc:part_fluid_export>, [[<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:gemLapis>], [<ore:ingotSteel>, <ore:craftingPiston>, <ore:ingotSteel>]]);

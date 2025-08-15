@@ -1,5 +1,21 @@
 {
   "recipes": [
+	{
+      "inputs": [
+        ["dict","plateTripleIron",2]
+      ],
+      "output": ["row:item.row.cartwheel"],
+      "duration": 200,
+      "consumption": 100
+    },
+	{
+      "inputs": [
+        ["dict","plateTripleIron",4]
+      ],
+      "output": ["row:item.row.enginewheel"],
+      "duration": 200,
+      "consumption": 500
+    },
   	{
       "inputs": [
         ["dict","plateTripleSteel",4]
