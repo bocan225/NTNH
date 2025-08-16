@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You should be careful with this task. Fire protection is highly recommended.",
+      "desc:8": "You should be careful with this task. Fire protection is highly recommended. [warn]Blazes are always spawning infernal.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
