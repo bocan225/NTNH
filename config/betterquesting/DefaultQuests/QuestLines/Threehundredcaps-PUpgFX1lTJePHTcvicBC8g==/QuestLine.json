@@ -5,7 +5,7 @@
       "bg_size:3": 256,
       "desc:8": "Welcome to the shop!",
       "icon:10": {
-        "Count:3": 1,
+        "Count:3": 3,
         "Damage:2": 0,
         "OreDict:8": "",
         "id:8": "hbm:item.cap_nuka"
