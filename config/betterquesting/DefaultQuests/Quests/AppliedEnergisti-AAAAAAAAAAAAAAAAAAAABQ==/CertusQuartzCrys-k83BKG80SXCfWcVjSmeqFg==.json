@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Certus Quartz is an important material in Applied Energistics 2. It is dropped when mining or processing Certus Quartz Ore at the rate of one to four, the yield is affected by a tool\u0027s Fortune Enchantment. Certus Quartz is often interchangeable with Vanilla Nether Quartz in the recipes for basic tools, such as the Quartz Cutting Knife. Certus Quartz Ore can be Acidized or Centrifuged for extra resourses.\n\nCertus Quartz can later be made in a chemical plant using Nether Quartz.",
+      "desc:8": "Certus Quartz is an important material in Applied Energistics 2. It is dropped when mining or processing Certus Quartz Ore at the rate of one to four, the yield is affected by a tool's Fortune Enchantment. Certus Quartz is often interchangeable with Vanilla Nether Quartz in the recipes for basic tools, such as the Quartz Cutting Knife. Certus Quartz Ore can be Acidized or Centrifuged for extra resourses.\n\nCertus Quartz can later be made in a chemical plant using Nether Quartz.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -32,7 +32,14 @@
   },
   "questIDHigh:4": -7796363000499910288,
   "questIDLow:4": -6964318318511019498,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "Count:3": 1,
+      "Damage:2": 6,
+      "OreDict:8": "",
+      "id:8": "enhancedlootbags:lootbags"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

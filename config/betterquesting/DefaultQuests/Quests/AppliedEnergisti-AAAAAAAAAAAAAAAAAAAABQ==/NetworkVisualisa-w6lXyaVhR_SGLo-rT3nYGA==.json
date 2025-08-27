@@ -32,7 +32,14 @@
   },
   "questIDHigh:4": -4347847441674844172,
   "questIDLow:4": -8777920657762953192,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "Count:3": 1,
+      "Damage:2": 6,
+      "OreDict:8": "",
+      "id:8": "enhancedlootbags:lootbags"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

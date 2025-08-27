@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The ME Storage Bus, when attached to an block/tile entity with an inventory (generally a storage unit, such as chests or a Drawer Controller), will include that inventory\u0027s contents in the ME System.\n",
+      "desc:8": "The ME Storage Bus, when attached to an block/tile entity with an inventory (generally a storage unit, such as chests or a Drawer Controller), will include that inventory's contents in the ME System.\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -32,7 +32,14 @@
   },
   "questIDHigh:4": -5841689264820764362,
   "questIDLow:4": -5604873557625845222,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "Count:3": 1,
+      "Damage:2": 6,
+      "OreDict:8": "",
+      "id:8": "enhancedlootbags:lootbags"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

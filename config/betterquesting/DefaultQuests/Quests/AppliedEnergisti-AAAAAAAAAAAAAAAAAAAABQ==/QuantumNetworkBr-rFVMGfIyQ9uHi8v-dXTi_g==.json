@@ -1,10 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 24
+    },
+    "1:10": {
       "questIDHigh:4": 3611252168024277888,
       "questIDLow:4": -8173560344509741266
     },
-    "1:10": {
+    "2:10": {
       "questIDHigh:4": 5342862768701196415,
       "questIDLow:4": -4812878700119939068
     }
@@ -36,7 +40,14 @@
   },
   "questIDHigh:4": -6028828851844267045,
   "questIDLow:4": -8679619563073772802,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "Count:3": 1,
+      "Damage:2": 6,
+      "OreDict:8": "",
+      "id:8": "enhancedlootbags:lootbags"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

@@ -27,11 +27,23 @@
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
       "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
+      "visibility:8": "COMPLETED"
     }
   },
   "questIDHigh:4": -998900400995610957,
   "questIDLow:4": -6972210232955436154,
-  "rewards:9": {},
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "Count:3": 1,
+      "Damage:2": 6,
+      "OreDict:8": "",
+      "id:8": "enhancedlootbags:lootbags"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }
