@@ -34,10 +34,14 @@
   "questIDLow:4": -6972210232955436154,
   "rewards:9": {
     "0:10": {
-      "Count:3": 1,
-      "Damage:2": 6,
-      "OreDict:8": "",
-      "id:8": "enhancedlootbags:lootbags"
+      "index:3": 0,
+      "orig_data:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "OreDict:8": "",
+        "id:8": "enhancedlootbags:lootbags"
+      },
+      "rewardID:8": "betterquesting:placeholder"
     }
   },
   "tasks:9": {
