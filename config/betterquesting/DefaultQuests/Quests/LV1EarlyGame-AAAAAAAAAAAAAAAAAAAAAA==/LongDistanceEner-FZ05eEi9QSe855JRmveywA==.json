@@ -27,11 +27,16 @@
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
       "taskLogic:8": "AND",
-      "visibility:8": "SECRET"
+      "visibility:8": "COMPLETED"
     }
   },
   "questIDHigh:4": 1557464234919280935,
   "questIDLow:4": -4834734795769007424,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }
