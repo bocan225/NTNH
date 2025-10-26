@@ -23,6 +23,7 @@
    └ Serves as a replacement for the T-45
 - Depressurization effects!
    └ Breaking any sealed room will cause depress event, which will suck entities through the hole, if they fit
+- Added a few interesting and helpful resourcepacks
 
 **Fixed**
 - Fixed screen flickering when looking at players
@@ -52,6 +53,7 @@
 - Crash when dying in orbit
 
 **Changed**
+- **NTNH Vanilled resourcepack was temporarily removed to fix MMC/Prism extraction issue!**
 - Added reward for "Fluix Crystal" quest
 - Removed Deconstruction table
    └ Cry about it
@@ -140,9 +142,6 @@ R- einforced concrete can now also be created by filling rebar with liquid concr
 - MORE MORE MORE electrolyser ports
 - PLSS will now consume O2 when underwater
 - QMAW pages for zinc
-   └ 
-   └ 
-   └ 
 
 
 
