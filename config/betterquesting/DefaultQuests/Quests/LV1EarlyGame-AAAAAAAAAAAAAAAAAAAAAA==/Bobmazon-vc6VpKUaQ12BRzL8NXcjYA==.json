@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Amazon that works for caps!",
+      "desc:8": "§6Bobmazon§r is an in-game shop where players can spend §6Bottle Caps§r to purchase various items such as building blocks, plants, resourses and many more. To purchase items, one must have unlocked the achievements listed below as \"Ratings\".",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -16,7 +16,7 @@
         "OreDict:8": "",
         "id:8": "hbm:item.bobmazon"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Bobmazon",

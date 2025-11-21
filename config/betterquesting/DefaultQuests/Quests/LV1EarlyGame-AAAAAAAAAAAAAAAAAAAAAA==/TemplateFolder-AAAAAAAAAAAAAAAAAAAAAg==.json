@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7668713233961733844,
-      "questIDLow:4": -8186258255035639237
+      "questIDHigh:4": -4234283974238320836,
+      "questIDLow:4": -8474188240158341579
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Template Folder is an item that will allow one to create schematics for crafting, chemical processes and shaping molds.\n\nThe first thing one creates with a Template Folder are molds needed in the Burner Press. Simply make a Flat stamp out of any available material and then select the specific mold from the Template Folder.",
+      "desc:8": "The §6Template Folder§r is an item that will allow one to create schematics for crafting purposes. The first thing one creates with it are §6Molds§r needed in the §3Burner Press§r. Simply make a §6Flat Stamp§r out of any available material and then select the specific mold from the template folder.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

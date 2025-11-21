@@ -8,18 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Latex is an Early Game rubber analog. You can craft it by combining 4 dandelions and smelting the result.",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.ingot_biorubber"
+        "id:8": "minecraft:nether_star"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Latex",
+      "name:8": "New Quest",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,26 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -1768225599084277788,
-  "questIDLow:4": -4987018416699038025,
+  "questIDHigh:4": 6665753566919737750,
+  "questIDLow:4": -5370950957878044483,
   "rewards:9": {},
-  "tasks:9": {
-    "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.ingot_biorubber"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  }
+  "tasks:9": {}
 }
