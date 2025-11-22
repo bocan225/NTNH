@@ -2,14 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 35,
-      "type:1": 1
+      "questIDLow:4": 35
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Survey Scanner is used to locate bedrock ores aswell as other materials underground.",
+      "desc:8": "The §6Survey Scanner§r is a handheld device that will point out underground resourse deposits, such as §eDepth Rock§r and §eBedrock Ores§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
