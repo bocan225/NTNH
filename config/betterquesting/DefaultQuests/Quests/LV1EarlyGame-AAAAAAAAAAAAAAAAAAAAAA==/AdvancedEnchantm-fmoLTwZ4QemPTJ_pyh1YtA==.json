@@ -8,45 +8,53 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Hazmat Suits provide protection against many hazards, mainly radiation. Hazmat Cloth can be further strengthened to create more resistant Hazmat Suits.\n\nTo provide additional protection against environmental dangers, a Gas Mask Filter is needed, which can be equiped by left clicking with it.\n\nTungsten Reacher can decrease radiation amount too, so you\u0027re going to be like indestructible nuclear scientist.",
+      "desc:8": "The §dAdvanced Enchantment Table§r gives its user the ability to choose any enchantment they want, at the cost of significantly more experience.\n\n§2Since very low level books are cheap, its a great way of mass producing Pulverized Enchantment for endgame recipes.§r",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.hazmat_helmet"
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "eplus:tile.advancedEnchantmentTable",
+          "orig_meta:3": 0
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Hazmat Suits and Tungsten Reacher",
+      "name:8": "Advanced Enchantment Table",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 15,
+  "questIDHigh:4": 9109105630349115881,
+  "questIDLow:4": -8120940201588729676,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 24,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.hazmat_cloth"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "eplus:tile.advancedEnchantmentTable",
+            "orig_meta:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -63,10 +71,14 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.reacher"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "eplus:item.tableUpgrade",
+            "orig_meta:3": 0
+          }
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
