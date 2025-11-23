@@ -60,3 +60,4 @@ config/identity
 *.errored
 *.tmp
 local/crash_assistant
+config/crash_assistant/problematic_mods_config.json
