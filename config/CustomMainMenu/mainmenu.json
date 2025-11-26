@@ -3,7 +3,7 @@
     {	
 	        "title":
         {
-            "image" : "mainmenu:textures/tittle_03.png",
+            "image" : "mainmenu:textures/tittle.png",
             "posX" : -120,
             "posY" : 15,
             "width" : 240,
