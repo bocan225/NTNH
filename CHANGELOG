@@ -11,10 +11,13 @@
 - Added completely new crash reportation system
 - Debuffed mobs
    └ Now there are no Bosses (Infernal Mobs)
+- Rebalanced food system
+   └ Now snacks, meals meaty meals are giving you way more saturation
+   └ But raw vegetables are not that good now
 
 
 
-[Full Changelog](https://github.com/Nuclear-Tech-New-Horizons/NTNH/compare/2.1.0...2.2.0)
+[Full Changelog](https://github.com/Nuclear-Tech-New-Horizons/NTNH/compare/2.2.0...2.3.0)
 
 ## Download
-[GitGub](https://github.com/Nuclear-Tech-New-Horizons/NTNH/releases/tag/2.2.0)
+[GitGub](https://github.com/Nuclear-Tech-New-Horizons/NTNH/releases/tag/2.3.0)
