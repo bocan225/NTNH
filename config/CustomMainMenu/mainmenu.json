@@ -1,70 +1,61 @@
 {
     "images":
-    {
-			"frame": {
-			"image": "mainmenu:textures/frame.png",
-			"posX": -152,
-			"posY": -27,
-			"width": 304,
-			"height": 104,
-			"alignment": "center"
-		},
+    {	
 	        "title":
         {
-            "image" : "mainmenu:textures/logotransparentoutline.png",
-            "posX" : -200,
-            "posY" : -25,
-            "width" : 400,
-            "height" : 200,
+            "image" : "mainmenu:textures/tittle_03.png",
+            "posX" : -120,
+            "posY" : 15,
+            "width" : 240,
+            "height" : 100,
             "alignment" : "top_center"
-        }	
+        },
+			"frame": 
+			{
+			"image": "mainmenu:textures/frame.png",
+			"posX": -159,
+			"posY": -33,
+			"width": 318,
+			"height": 115,
+			"alignment": "center"
+		}	
     },
     
     "buttons":
     {
 		"singleplayer": {
 			"text": "Singleplayer",
+			"hoverText": "> Singleplayer",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			
 			"posX": -150,
 			"posY": -25,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
-			"texture": "mainmenu:textures/button.png",			
+			"texture": "mainmenu:textures/button_top_left.png",			
 			"action": {
 				"type": "openGui",
 				"gui": "singleplayer"
 			}
 		},
 
-				"refresh": {
-			"text": "susy.menu.refresh",
-			"alignment": "center",
-			"posX": 0,
-			"posY": 150,
-			"width": 150,
-			"height": 20,
-			"imageWidth": 200,
-			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
-			"clickSound": "block.lever.click",
-			"action": {
-				"type": "refresh"
-			}
-		},
-
         "multiplayer":
         {
             "text": "Multiplayer",
+			"hoverText": "> Multiplayer",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			   			
 			"posX": -150,
 			"posY": -5,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_middle_left.png",					
 			"clickSound": "block.lever.click",
 			"action": {
 				"type": "openGui",
@@ -75,15 +66,17 @@
         "mods":
         {
 			"text": "Mods",
+			"hoverText": "> Mods (#modsloaded#/#modsactive#)",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			
 			"posX": -150,
 			"posY": 15,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
-			"tooltip": "#modsactive#/#modsloaded#",
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_middle_left.png",					
 			"clickSound": "block.lever.click",
 			"action": {
 				"type": "openGui",
@@ -94,15 +87,18 @@
         "options":
         {
 			"text": "Options",
+			"hoverText": "> Options",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,
 			"posX": -150,
 			"posY": 35,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
 			"clickSound": "block.lever.click",
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_middle_left.png",					
 			"action": {
 				"type": "openGui",
 				"gui": "options"
@@ -112,16 +108,17 @@
         "quit":
         {
 			"text": "Quit",
-			"hoverText": "STAY HERE",
+			"hoverText": "> STAY HERE",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 55,
 			"width": 300,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 300,
 			"imageHeight": 20,
-			"hoverTextColor": 11141120,
-			"texture": "mainmenu:textures/button.png",					
+			"hoverTextColor": 5111297,
+			"normalTextColor": 5111297,
+			"texture": "mainmenu:textures/button_bottom.png",					
 			"clickSound": "block.lever.click",
 			"action": {
 				"type": "quit"
@@ -131,14 +128,17 @@
         "discord": {
 			"text": "Discord",
 			"alignment": "center",
+			"hoverText": "> Discord",			
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			
 			"posX": 0,
 			"posY": -25,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
 			"clickSound": "block.lever.click",
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_top_right.png",					
 			"action": {
 				"type": "openLink",
 				"link": "https://discord.gg/UsBBgpJsqw"
@@ -147,15 +147,18 @@
 
         		"github": {
 			"text": "Report Bugs",
+			"hoverText": "> Report Bugs",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			
 			"posX": 0,
 			"posY": -5,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
 			"clickSound": "block.lever.click",
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_middle_right.png",					
 			"action": {
 				"type": "openLink",
 				"link": "https://github.com/NTNewHorizons/NTNH/issues"
@@ -165,14 +168,17 @@
 		"open_folder": 
         {
 			"text": "Open Game Files",
+			"hoverText": "> Open Game Files",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			
 			"posX": 0,
 			"posY": 15,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_middle_right.png",					
 			"action": {
 				"type": "openFolder",
 				"folderName": "/"
@@ -180,15 +186,18 @@
         },
             "website": {
 			"text": "Our Website",
+			"hoverText": "> Our Website",				
 			"alignment": "center",
+			"normalTextColor": 5111297,
+			"hoverTextColor": 5111297,			
 			"posX": 0,
 			"posY": 35,
 			"width": 150,
 			"height": 20,
-			"imageWidth": 200,
+			"imageWidth": 150,
 			"imageHeight": 20,
 			"clickSound": "block.lever.click",
-			"texture": "mainmenu:textures/button.png",					
+			"texture": "mainmenu:textures/button_middle_right.png",					
 			"action": {
 				"type": "openLink",
 				"link": "https://ntnewhorizons.github.io/"
@@ -236,6 +245,6 @@
 				"displayDuration": 150,
 				"fadeDuration": 40
 			}
-		}
+		}		
     }
 }
