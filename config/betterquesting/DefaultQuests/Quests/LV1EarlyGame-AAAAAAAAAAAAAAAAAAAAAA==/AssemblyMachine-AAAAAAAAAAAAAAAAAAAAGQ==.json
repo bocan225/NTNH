@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §3Assembly Machine§r is used in every stage of the game, with it being used to manufacture practically every other complex machine. Recipes for it can be chosen inside the GUI.",
+      "desc:8": "The §3Assembly Machine§r is used in every stage of the game, with it being used to manufacture practically every other complex machine. Recipes for it can be chosen inside the GUI.\n\n§2Some unique recipes require blueprints, that can be found in dungeons and/or bought from Bobmazon.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
